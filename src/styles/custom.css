@@ -1,0 +1,131 @@
+/* Custom styles to enhance Tailwind CSS */
+
+/* Form elements */
+input, select, textarea {
+  height: auto !important;
+  min-height: 2.75rem !important;
+  padding: 0.625rem 0.75rem !important;
+  font-size: 0.9375rem !important;
+  line-height: 1.5 !important;
+  transition: all 0.2s ease-in-out !important;
+  color: #1f2937 !important; /* Dark gray text color */
+}
+
+input:focus, select:focus, textarea:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25) !important;
+}
+
+/* Button enhancements */
+button {
+  min-height: 2.75rem !important;
+  padding: 0.625rem 1.25rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Card styles */
+.card {
+  border-radius: 0.5rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Table improvements */
+th {
+  font-size: 0.8125rem !important;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.025em !important;
+  padding: 1rem !important;
+}
+
+td {
+  padding: 1rem !important;
+  vertical-align: middle !important;
+}
+
+/* Status badges */
+.status-badge {
+  display: inline-flex !important;
+  align-items: center !important;
+  padding: 0.35rem 0.75rem !important;
+  border-radius: 9999px !important;
+  font-size: 0.75rem !important;
+  font-weight: 600 !important;
+}
+
+.status-pending {
+  background-color: #fef3c7 !important;
+  color: #92400e !important;
+}
+
+.status-active {
+  background-color: #dcfce7 !important;
+  color: #166534 !important;
+}
+
+/* Checkbox improvements */
+input[type="checkbox"] {
+  width: 1.125rem !important;
+  height: 1.125rem !important;
+  min-height: auto !important;
+}
+
+/* Form layout spacing */
+.form-section {
+  margin-bottom: 2rem !important;
+}
+
+/* Page container */
+.page-container {
+  max-width: 1280px !important;
+  margin: 0 auto !important;
+  padding: 2rem 1.5rem !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 640px) {
+  .page-container {
+    padding: 1.5rem 1rem !important;
+  }
+}
+
+/* Animation for hover effects */
+.hover-lift {
+  transition: transform 0.2s ease-in-out !important;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px) !important;
+}
+
+/* Banner preview container */
+.banner-preview {
+  border: 2px dashed #e5e7eb !important;
+  border-radius: 0.5rem !important;
+  padding: 1rem !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 160px !important;
+}
+
+/* Login container */
+.login-container {
+  max-width: 28rem !important;
+  margin: 0 auto !important;
+  padding: 2.5rem 1.5rem !important;
+  background-color: white !important;
+  border-radius: 0.5rem !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06) !important;
+}
+
+/* Campaign card */
+.campaign-card {
+  transition: all 0.2s ease-in-out !important;
+  border: 1px solid #e5e7eb !important;
+}
+
+.campaign-card:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05) !important;
+}
