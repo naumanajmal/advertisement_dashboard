@@ -55,7 +55,7 @@ This project is a Minimum Viable Product (MVP) for an advertising campaign manag
 1. Clone the repository
 ```bash
 git clone <repository-url>
-cd advertising
+cd advertisement_dashboard
 ```
 
 2. Install dependencies
